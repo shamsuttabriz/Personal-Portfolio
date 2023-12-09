@@ -6,15 +6,15 @@ const NavBar = () => {
     const [navBar, setNavBar] = useState(false);
     const links = [
         { id: 1, link: 'home' },
-        { id: 2, link: 'About' },
+        { id: 2, link: 'About Us' },
         { id: 3, link: 'Skills' },
         { id: 4, link: 'Works' },
         { id: 5, link: 'Contact Us' },
     ]
     return (
         <div className='flex justify-between items-center w-full h-16 md:h-20 bg-slate-900 shadow-xl shadow-slate-800 fixed top-0 z-20'>
-            <div className='z-10'>
-                <h1 className="text-2xl md:text-3xl px-5 ml-5 font-signature text-slate-400">St-Portfolio</h1>
+            <div className='md:pl-6'>
+                <a href='#' className="text-md md:text-xl font-semibold border-2 border-slate-400 px-3 py-1 ml-5 font-signature text-slate-400">S-Tabriz</a>
             </div>
             <ul className='space-x-5 pr-5 mr-5 hidden md:flex'>
                 {
