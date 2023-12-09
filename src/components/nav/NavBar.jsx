@@ -29,9 +29,9 @@ const NavBar = () => {
             </div>
 
             {navBar && (
-                <ul className='flex space-y-5 flex-col justify-start pt-16 items-center w-full absolute top-[4rem] md:top-20 left-0 h-screen bg-slate-900 text-slate-400 border-t-2 border-slate-800 md:hidden'>
+                <ul className='flex space-y-5 flex-col justify-start items-end pr-6 py-5 w-6/12 absolute top-[4rem] md:top-20 right-0 h-screen bg-slate-900 text-slate-400 border-t-2 border-slate-800 md:hidden shadow-md shadow-slate-600'>
                     {
-                        links.map(link => (<li key={link.id} className='text-2xl font-medium cursor-pointer capitalize hover:text-slate-300'>{link.link}</li>))
+                        links.map(link => (<li key={link.id} className='text-xl font-medium cursor-pointer capitalize hover:text-slate-300'>{link.link}</li>))
                     }
                 </ul>
             )}
