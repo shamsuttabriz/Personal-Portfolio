@@ -10,7 +10,7 @@ const AboutPage = () => {
                 <div className='text-center mb-24'>
                     <p className='text-lg md:text-xl text-slate-400 inline-block bg-slate-900 px-6 md:px-10 py-2 md:py-3 font-bold items-center rounded-ss-2xl md:rounded-ss-3xl rounded-ee-2xl md:rounded-ee-3xl shadow-lg shadow-slate-700'>
                         <span className='inline-block pr-3 text-[16px] md:text-md'><LuUser2 /></span>
-                        About Us
+                        About Me
                     </p>
                 </div>
                 <div className='md:flex md:justify-between md:items-center gap-x-12'>
@@ -21,7 +21,7 @@ const AboutPage = () => {
                         <h1 className='text-xl md:text-4xl font-semibold pl-[2px]'>Hi! I'm Md.Shamsut Tabriz</h1>
                         <h1 className='text-lg md:text-2xl font-semibold pl-[2px]'>Front-End Developer</h1>
                         <p className='text-sm md:text-md leading-6 pl-[2px]'>
-                            I'm a front-end developer and competitive programmer. Now I am learning front-end development at Vivasoft Limited. I have solved more than 300 problems in various online judge. Besides this, I have participated in the onsite contest. And learning the following technologies for front-end -
+                            I'm a front-end developer and competitive programmer. Now I am learning front-end development at Vivasoft Limited. I have solved more than 450 problems in various online judge. Besides this, I have participated in the onsite contest. And learning the following technologies for front-end -
                         </p>
                         <div className='pb-3 pr-2'>
                             <p className='border-2 border-slate-700 px-2 py-1 text-sm inline-block m-1 cursor-pointer'>HTML</p>

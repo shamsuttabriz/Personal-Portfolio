@@ -6,10 +6,10 @@ const NavBar = () => {
     const [navBar, setNavBar] = useState(false);
     const links = [
         { id: 1, link: 'home' },
-        { id: 2, link: 'About Us' },
+        { id: 2, link: 'About Me' },
         { id: 3, link: 'Skills' },
         { id: 4, link: 'Works' },
-        { id: 5, link: 'Contact Us' },
+        { id: 5, link: 'Contact Me' },
     ]
     return (
         <div className='flex justify-between items-center w-full h-16 md:h-20 bg-slate-900 shadow-xl shadow-slate-800 fixed top-0 z-20'>

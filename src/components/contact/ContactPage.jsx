@@ -12,7 +12,7 @@ const ContactPage = () => {
                 <div className='text-center mb-24'>
                     <p className='text-lg md:text-xl text-slate-400 inline-block bg-slate-900 px-6 md:px-10 py-2 md:py-3 font-bold items-center rounded-ss-2xl md:rounded-ss-3xl rounded-ee-2xl md:rounded-ee-3xl shadow-lg shadow-slate-700'>
                         <span className='inline-block pr-3 text-[16px] md:text-md'><RiContactsLine /></span>
-                        Contact Us
+                        Contact Me
                     </p>
                 </div>
                 <div className='md:flex justify-end items-center'>
