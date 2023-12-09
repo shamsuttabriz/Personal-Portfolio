@@ -19,7 +19,7 @@ const NavBar = () => {
             <ul className='space-x-5 pr-5 mr-5 hidden md:flex'>
                 {
                     links.map(({ id, link }) => (<li key={id} className=' font-medium cursor-pointer capitalize text-slate-400 hover:text-slate-300 duration-200'>
-                        <Link to={link} smooth duration={500} >{link}</Link>
+                        <Link to={link} smooth={true} duration={500} >{link}</Link>
                     </li>
                     ))
                 }
@@ -31,7 +31,7 @@ const NavBar = () => {
             {navBar && (
                 <ul className='flex space-y-5 flex-col justify-start items-end pr-6 py-5 w-6/12 absolute top-[4rem] md:top-20 right-0 h-screen bg-slate-900 text-slate-400 border-t-2 border-slate-800 md:hidden shadow-md shadow-slate-600'>
                     {
-                        links.map(link => (<li key={link.id} className='text-xl font-medium cursor-pointer capitalize hover:text-slate-300'>{link.link}</li>))
+                        links.map(link => (<li key={link.id} className='text-xl font-medium cursor-pointer capitalize hover:text-slate-300 '>{link.link}</li>))
                     }
                 </ul>
             )}

@@ -33,9 +33,9 @@ const AboutPage = () => {
                             <p className='border-2 border-slate-700 px-2 py-1 text-sm inline-block m-1 cursor-pointer'>NextJs</p>
                             <p className='border-2 border-slate-700 px-2 py-1 text-sm inline-block m-1 cursor-pointer'>Redux</p>
                         </div>
-                        <button className='text-sm md:text-md border-2 hover:bg-transparent px-3 md:px-8 py-2 text-slate-300 bg-slate-900 border-slate-600 duration-200 flex justify-between items-center rounded-sm'>
-                            Download CV <span className='pl-2 md:pl-3'><FaDownload /></span>
-                        </button>
+                        <a href='https://drive.google.com/file/d/10x5bztDyf_x0M4zVv5Ej2JgQIJrj2uRB/view?usp=sharing' target='_blank' className='text-sm md:text-md border-2 hover:bg-transparent px-3 md:px-8 py-2 text-slate-300 bg-slate-900 border-slate-600 inline-block duration-200 rounded-sm'>
+                            Download CV <span className='pl-2 md:pl-3 inline-block'><FaDownload /></span>
+                        </a>
                     </div>
                 </div>
             </div>
