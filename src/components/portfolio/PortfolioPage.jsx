@@ -13,7 +13,7 @@ import todoList from '../../assets/portfolio/todoList.png';
 const PortfolioPage = () => {
     const works = [
         { id: 1, src: tynione, title: 'Tynione', demo: 'https://shamsuttabriz.github.io/tynione/', code: 'https://github.com/shamsuttabriz/tynione' },
-        { id: 2, src: weatherChecker, title: 'Weather-Checker', demo: 'https://shamsuttabriz.github.io/Weather-Checker/', code: 'https://github.com/shamsuttabriz/Weather-Checker' },
+        { id: 2, src: weatherChecker, title: 'Weather-Checker', demo: 'https://weather-checker-dusky.vercel.app/', code: 'https://github.com/shamsuttabriz/Weather-Checker' },
         { id: 3, src: todoList, title: 'Todo-List', demo: 'https://learnathon2-0-todo-list.vercel.app/', code: 'https://github.com/shamsuttabriz/Learnathon2.0-TodoList' },
         { id: 4, src: tChicken, title: 'T-Chicken', demo: 'https://shamsuttabriz.github.io/T-Chicken/', code: 'https://github.com/shamsuttabriz/T-Chicken' },
         { id: 5, src: restaurant, title: 'Restaurant Bill Management', demo: 'https://github.com/shamsuttabriz/restaurantsMakeBill', code: 'https://github.com/shamsuttabriz/restaurantsMakeBill' },
