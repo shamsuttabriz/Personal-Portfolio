@@ -9,6 +9,7 @@ import tynione from '../../assets/portfolio/tynione.png';
 import weatherChecker from '../../assets/portfolio/weatherChecker.png';
 import todoList from '../../assets/portfolio/todoList.png';
 
+
 const PortfolioPage = () => {
     const works = [
         { id: 1, src: tynione, title: 'Tynione', demo: 'https://shamsuttabriz.github.io/tynione/', code: 'https://github.com/shamsuttabriz/tynione' },
@@ -19,7 +20,7 @@ const PortfolioPage = () => {
         { id: 6, src: eCommerce, title: 'E-commerce', demo: 'https://four-team.surge.sh/', code: 'https://github.com/shamsuttabriz/ema-jhon-simple' }
     ]
     return (
-        <div name="portfolio" className='bg-gradient-to-bl from-slate-900 via-slate-800 to-slate-900 py-12 md:py-32'>
+        <div id="works" className='bg-gradient-to-bl from-slate-900 via-slate-800 to-slate-900 py-12 md:py-32'>
             <div className='flex flex-col justify-center items-center'>
                 <div className='w-10/12 md:w-8/12 py-5 clear-both'>
                     <div className='text-center mb-24'>

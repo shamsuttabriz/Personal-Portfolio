@@ -25,7 +25,7 @@ const ExperiencePage = () => {
     ]
 
     return (
-        <div name="portfolio" className='bg-gradient-to-bl from-slate-900 via-slate-800 to-slate-900 py-12 md:py-32'>
+        <div id="skills" className='bg-gradient-to-bl from-slate-900 via-slate-800 to-slate-900 py-12 md:py-32'>
             <div className="w-10/12 md:w-9/12 px-2 py-5 md:px-14 md:py-10 mx-auto flex flex-col justify-center text-white">
                 <div className='text-center mb-24'>
                     <p className='text-lg md:text-xl text-slate-400 inline-block bg-slate-900 px-6 md:px-10 py-2 md:py-3 font-bold items-center rounded-ss-2xl md:rounded-ss-3xl rounded-ee-2xl md:rounded-ee-3xl shadow-lg shadow-slate-700'>

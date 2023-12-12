@@ -5,11 +5,11 @@ import { Link } from 'react-scroll';
 const NavBar = () => {
     const [navBar, setNavBar] = useState(false);
     const links = [
-        { id: 1, link: 'home' },
-        { id: 2, link: 'About Me' },
-        { id: 3, link: 'Skills' },
-        { id: 4, link: 'Works' },
-        { id: 5, link: 'Contact Me' },
+        { id: 1, text: 'Home', link: 'home' },
+        { id: 2, text: 'About Me', link: 'about_me' },
+        { id: 3, text: 'Skills', link: 'skills' },
+        { id: 4, text: 'Works', link: 'works' },
+        { id: 5, text: 'Contact Me', link: 'contact_me' },
     ]
     return (
         <div className='flex justify-between items-center w-full h-16 md:h-20 bg-slate-900 shadow-xl shadow-slate-800 fixed top-0 z-20'>
@@ -18,9 +18,10 @@ const NavBar = () => {
             </div>
             <ul className='space-x-5 pr-5 mr-5 hidden md:flex'>
                 {
-                    links.map(({ id, link }) => (<li key={id} className=' font-medium cursor-pointer capitalize text-slate-400 hover:text-slate-300 duration-200'>
-                        <Link to={link} smooth={true} duration={500} >{link}</Link>
-                    </li>
+                    links.map(({ id, text, link }) => (
+                        <li key={id} className=' font-medium cursor-pointer capitalize text-slate-400 hover:text-slate-300 duration-200'>
+                            <Link to={link} smooth={true} duration={500}>{text}</Link>
+                        </li>
                     ))
                 }
             </ul>
@@ -31,7 +32,9 @@ const NavBar = () => {
             {navBar && (
                 <ul className='flex space-y-5 flex-col justify-start items-end pr-6 py-5 w-6/12 absolute top-[4rem] md:top-20 right-0 h-screen bg-slate-900 text-slate-400 border-t-2 border-slate-800 md:hidden shadow-md shadow-slate-600'>
                     {
-                        links.map(link => (<li key={link.id} className='text-xl font-medium cursor-pointer capitalize hover:text-slate-300 '>{link.link}</li>))
+                        links.map(({ id, link, text }) => (<li key={id} className='text-xl font-medium cursor-pointer capitalize hover:text-slate-300 '>
+                            <Link to={link} smooth={true} duration={500}>{text}</Link>
+                        </li>))
                     }
                 </ul>
             )}
