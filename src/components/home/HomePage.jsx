@@ -7,7 +7,7 @@ const HomePage = () => {
     return (
         <div id='home' className='bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-slate-800 via-slate-900 to-slate-800 flex items-center justify-center md:flex-row h-screen'>
             <div className='p-5 w-full md:w-10/12 flex justify-center items-center'>
-                <div className='space-y-5 px-[5px] md:px-5 pt-28 pb-8 text-center'>
+                <div className='space-y-5 px-[5px] md:px-5 pt-16 pb-8 text-center'>
                     <p className=' text-slate-500 font-semibold text-md md:text-lg'>Hello, I'm </p>
                     <h1 className='text-4xl md:text-7xl font-bold text-slate-300'>
                         Shamsut Tabriz
