@@ -14,7 +14,7 @@ const NavBar = () => {
     return (
         <div className='flex justify-between items-center w-full h-16 md:h-20 bg-slate-900 shadow-xl shadow-slate-800 fixed top-0 z-20'>
             <div className='md:pl-6'>
-                <a href='#' className="text-md md:text-xl font-semibold border-2 border-slate-400 px-3 py-1 ml-5 font-signature text-slate-400">S-Tabriz</a>
+                <Link to="home" smooth={true} duration={500} className="text-md md:text-xl cursor-pointer font-semibold border-2 border-slate-400 px-3 py-1 ml-5 font-signature text-slate-400">S-Tabriz</Link>
             </div>
             <ul className='space-x-5 pr-5 mr-5 hidden md:flex'>
                 {
